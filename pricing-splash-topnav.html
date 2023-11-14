@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TerraClim | Pricing</title>
+    <style>
+        /* These style elements are related to the example nav bar and side menu which you probably wont need, scroll down*/
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        .example-header-pricing-splash {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+
+        }
+
+        /* These style elements are related to all the elements within the pricing-splash-container div */
+        /* START OF PRICING SPLASH CSS STYLES */
+        .pricing-splash-container {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Inter', sans-serif;
+            background: url('pricing-bg.png') no-repeat center center;
+            background-size: cover;
+            color: #3d3d3d;
+            flex: 1;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            padding: 0;
+        }
+
+        .pricing-wrapper {
+            padding: 0.5% 4% 2% 8%;
+        }
+
+        .pricing-content {
+            width: 80%;
+            max-width: 85%;
+            min-width: 80%;
+            margin: 2vh auto;
+            background: rgba(255, 255, 255, 1.0);
+            padding: 1% 2% 1% 2%;
+
+            border-radius: 13px;
+        }
+
+        .pricing-heading-p {
+            text-align: start;
+            font-size: 2.32vw;
+            font-weight: bold;
+            margin-bottom: 2%;
+            margin-left: 7vw;
+
+        }
+
+        .pricing-content-p {
+            font-size: 1.4vw;
+            font-weight: bold;
+        }
+
+        .pricing-content-p-2 {
+            font-size: 1.85vw;
+            font-weight: bold;
+            text-align: center;
+            padding: 1% 0px;
+            padding-top: 1%;
+            padding-bottom: 0;
+            color: rgba(45, 110, 85, 1.0);
+            margin-left: -5%;
+            margin-bottom: 0px;
+
+        }
+
+        .pricing-content-p-thin {
+            font-weight: 400;
+        }
+
+        .pricing-heading-p-thin {
+            font-weight: 400;
+        }
+
+        .pricing-heading-div {
+            padding-top: 2%;
+            margin: 0;
+        }
+
+        .pricing-footer-div {
+            text-align: center;
+
+        }
+
+        .pricing-bullet-icon {
+            width: 38px;
+            min-width: 3vw;
+            max-width: 3vw;
+            height: 38px;
+            min-height: 3vw;
+            max-height: 3vw;
+            margin-right: 1%;
+            vertical-align: middle;
+            padding: 0;
+
+        }
+
+        .pricing-bullet-item-regular {
+            font-weight: 400;
+        }
+
+        .pricing-footer-italic {
+            font-size: 1.5vw;
+            font-style: italic;
+            min-width: 100%;
+        }
+
+        .pricing-ul {
+            list-style: none;
+            padding: 0;
+            margin: 2% 1%;
+        }
+
+        .pricing-li {
+            margin-bottom: 1%;
+            padding-left: 0px;
+            position: relative;
+        }
+
+        .pricing-li:before {
+            content: '';
+            width: 20px;
+            height: 20px;
+            background: url('checkmark.png') no-repeat;
+            background-size: contain;
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        /* END OF PRICING SPLASH CSS STYLES */
+    </style>
+</head>
+
+<body>
+
+    <!-- This is just an example header which takes up the space for the dashboard header bar-->
+    <header class="example-header-pricing-splash">
+        <h2 style="margin: 1.6vh 0;">Placeholder Header Bar</h2>
+    </header>
+
+    <!-- These are the elements you need, everything is inside the "pricing-splash-container" div -->
+    <!-- START OF PRICING SPLASH ELEMENTS-->
+    <div class="pricing-splash-container">
+        <div class="pricing-wrapper">
+            <div class="pricing-heading-div">
+                <p class="pricing-heading-p">Exclusive Legacy Tester Offer:<br><span
+                        class="pricing-heading-p-thin">Secure Your Spot in
+                        the
+                    </span>TerraClim
+                    3.0 Beta Program!</p>
+            </div>
+            <div class="pricing-content">
+                <ul class="pricing-ul">
+                    <li class="pricing-content-p pricing-li"><img class="pricing-bullet-icon" src="check-icon.png"
+                            alt="Icon 1">
+                        Fixed Legacy
+                        Rate:<span class="pricing-content-p-thin"> Lock in a yearly rate of R4500; the next increase is
+                            at R6000</span>
+                    </li>
+                    <li class="pricing-content-p pricing-li"><img class="pricing-bullet-icon" src="check-icon.png"
+                            alt="Icon 1">
+                        Early Access to Beta 3.0:<span class="pricing-content-p-thin"> Dive into the latest TerraClim
+                            innovations
+                            from
+                            February 2024</span>
+                    </li>
+                    <li class="pricing-content-p pricing-li"><img class="pricing-bullet-icon" src="check-icon.png"
+                            alt="Icon 1">
+                        Priority Support:<span class="pricing-content-p-thin"> Get priority access to new
+                            features</span>
+                    </li>
+                    <li class="pricing-content-p pricing-li"><img class="pricing-bullet-icon" src="check-icon.png"
+                            alt="Icon 1">
+                        Exclusive Updates:<span class="pricing-content-p-thin"> Receive behind-the-scenes development
+                            insights
+                            and
+                            updates.</span>
+                    </li>
+                    <li class="pricing-content-p pricing-li"><img class="pricing-bullet-icon" src="check-icon.png"
+                            alt="Icon 1">
+                        Enhanced Tools:<span class="pricing-content-p-thin"> Enjoy advanced data analytics and climate
+                            resilience
+                            tools.</span>
+                    </li>
+                    <li class="pricing-content-p pricing-li"><img class="pricing-bullet-icon" src="check-icon.png"
+                            alt="Icon 1">
+                        Tailored Insights:<span class="pricing-content-p-thin"> Receive personalised insights for your
+                            farm's
+                            unique
+                            needs</span>
+                    </li>
+                    <li class="pricing-content-p-2 pricing-li">
+                        Price: R4500/Year (Legacy Rate - First 200 Users Only)
+                    </li>
+                </ul>
+            </div>
+            <div class="pricing-footer-div">
+                <p class="pricing-footer-italic">Limited spots available. Don't miss this chance to be at the forefront
+                    of
+                    agricultural innovation.
+                    <br>For more information, contact us at <a
+                        style="font-weight:500;text-decoration: none;color:#31C48D;"
+                        href="mailto:hello@terraclim.co.za">hello@terraclim.co.za</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- END OF PRICING SPLASH ELEMENTS-->
+
+</body>
+
+</html>
